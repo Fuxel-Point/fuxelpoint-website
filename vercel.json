@@ -1,0 +1,52 @@
+{
+  "redirects": [
+    {
+      "source": "/work-inquiry/",
+      "destination": "https://surveys.(brand-name)/work-with-us",
+      "permanent": true
+    },
+    {
+      "source": "/youtube/",
+      "destination": "https://www.youtube.com/@(brand-name)?sub_confirmation=1",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/links/",
+      "destination": "https://(brand-name)-next.vercel.app/links"
+    },
+    {
+      "source": "/learn/",
+      "destination": "https://(brand-name)-next.vercel.app/learn"
+    },
+    {
+      "source": "/learn/:path*/",
+      "destination": "https://(brand-name)-next.vercel.app/learn/:path*"
+    },
+    {
+      "source": "/sign-up/",
+      "destination": "https://(brand-name)-next.vercel.app/sign-up"
+    },
+    {
+      "source": "/_next/:path*",
+      "destination": "https://(brand-name)-next.vercel.app/_next/:path*"
+    },
+    {
+      "source": "/_next/:path*/",
+      "destination": "https://(brand-name)-next.vercel.app/_next/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://(brand-name)-next.vercel.app/api/:path*"
+    },
+    {
+      "source": "/api/:path*/",
+      "destination": "https://(brand-name)-next.vercel.app/api/:path*"
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/favicon-32x32.png"
+    }
+  ]
+}
